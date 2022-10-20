@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  28180187-0148-487b-be94-5e438348a74b: # dearmaam
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/home
+    uriFormat: __home__
+type: single

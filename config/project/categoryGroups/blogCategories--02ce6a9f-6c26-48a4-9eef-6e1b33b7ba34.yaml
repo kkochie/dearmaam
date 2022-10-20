@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  6993225e-1337-405e-902b-e6c8053bdded:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 815172e0-f12f-490f-9c79-502227246245
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 344e655d-2405-48c2-a546-ce606ee190af
+        userCondition: null
+handle: blogCategories
+name: 'Blog Categories'
+siteSettings:
+  28180187-0148-487b-be94-5e438348a74b: # dearmaam
+    hasUrls: true
+    template: blog/_category
+    uriFormat: 'blog-categories/{slug}'
+structure:
+  maxLevels: 1
+  uid: 399f2c9f-a4a4-407e-854a-a93067b69392

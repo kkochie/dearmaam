@@ -1,0 +1,19 @@
+columnSuffix: acmsngsa
+contentColumnType: text
+fieldGroup: 50f0b566-40db-423d-bd76-e324969c46b0 # Blog Post Fields
+handle: summary
+instructions: 'Enter a one or two sentence summary.'
+name: Summary
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 1
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,69 @@
+dateModified: 1666274965
+email:
+  fromEmail: kristinekochie@gmail.com
+  fromName: 'Dear Ma''am'
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  transformedImages:
+    hasUrls: true
+    name: 'Transformed Images'
+    settings:
+      path: $PRIMARY_SITE_URL
+    type: craft\fs\Local
+    url: $PRIMARY_SITE_URL
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
+meta:
+  __names__:
+    0d53bd71-54fc-4332-8cca-4c56032fbf0c: Home # Home
+    02ce6a9f-6c26-48a4-9eef-6e1b33b7ba34: 'Blog Categories' # Blog Categories
+    5bab651e-b4e9-422e-ad08-1ca3d4ddc60e: Text # Text
+    5c0e2310-bb35-45a6-bb91-89e81e9624b5: Image # Image
+    6b7ed5fd-678c-4e0e-858f-d05bd205215a: 'Site Description' # Site Description
+    6d588b5a-4fbb-4b3a-9e49-ca90664b1624: dearmaam # dearmaam
+    6fc35edd-c9e6-4107-80a4-e79c5236c736: Common # Common
+    8d819790-d1fc-44cf-8f3f-6ff2b6685527: 'Image Alt' # Image Alt
+    11f71396-a931-4bee-9df3-49a1839a98e2: 'Feature Image' # Feature Image
+    41b50b20-73f7-4f03-9486-dd81eff990b3: Uploads # Uploads
+    50f0b566-40db-423d-bd76-e324969c46b0: 'Blog Post Fields' # Blog Post Fields
+    84dbef35-60ef-410f-9459-f9f1ecabc567: Blog # Blog
+    219dd26e-30b9-427f-8da9-3bd5b9b6676c: Text # Text
+    424fb33e-ea24-41ce-b18f-29950e64611e: Caption # Caption
+    79613b28-bc44-4eb1-9686-a0d7097bc873: Blog # Blog
+    322976f4-6633-4a19-9078-e38af20581d3: Image # Image
+    5574916c-1aba-46ab-95c2-976b46f76de9: 'Site Information' # Site Information
+    28180187-0148-487b-be94-5e438348a74b: dearmaam # dearmaam
+    a9e75be5-8ea5-4496-84fb-35777cb58ade: Summary # Summary
+    a9304c4f-5334-4567-869a-fd00f4d3de14: 'Post Content' # Post Content
+    af4b434f-0669-4040-94a0-4f83b68b3631: 'Post Categories' # Post Categories
+    b1eaf2bd-a1ba-436b-bdf4-610dd3473ebe: About # About
+    dae58048-3ab2-47e8-8dc5-6c28fe5c98ba: About # About
+    eb1f9ce3-3dc5-461b-9359-a9846f097e72: Home # Home
+    f008f5fa-5ee3-4d4b-8bdf-850df9cbdfdb: Image # Image
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: dearmaam
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
